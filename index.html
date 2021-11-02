@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/medium.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/css/all.min.css">
+    
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+        
+    <title>Medium - Where good ideas find you.</title>
+  </head>
+  <body>
+
+     <div class="bg-navy-blue border-bottom-dark-1 py-1 fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light ">              
+                  <a class="navbar-brand" href="#">
+                        <img src="medium-logo-F0ACFCCD58-seeklogo.com.png" alt="" style="height: 25px;">
+                        <svg class="ms-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="45" viewBox="0 0 122 45"><path d="M61.6 31.806c0 .412 0 .505.28.758l1.574 1.537v.065h-6.979v-2.95a4.852 4.852 0 0 1-4.627 3.203c-3.588 0-6.192-2.81-6.192-7.981 0-4.843 2.81-8.075 6.754-8.075a4.122 4.122 0 0 1 4.056 2.51v-6.51a.806.806 0 0 0-.319-.787l-1.499-1.443v-.065l6.951-.815v20.553zm-5.125-.937v-9.714a2.614 2.614 0 0 0-2.08-.975c-1.695 0-3.334 1.537-3.334 6.099 0 4.271 1.414 5.78 3.175 5.78a2.81 2.81 0 0 0 2.24-1.19zm9.752 3.297V21.051a.88.88 0 0 0-.281-.786L64.4 18.672v-.065h6.98v13.302c0 .412 0 .505.28.758l1.536 1.443v.066l-6.97-.01zm-.253-20.356a2.81 2.81 0 1 1 5.62 0 2.81 2.81 0 0 1-5.62 0zm24.234 17.967c0 .413 0 .534.281.787l1.574 1.537v.065h-7.017v-3.363a5.077 5.077 0 0 1-4.805 3.616c-3.11 0-4.778-2.267-4.778-6.557 0-2.07 0-4.337.066-6.885a.796.796 0 0 0-.281-.76l-1.546-1.545v-.065h6.923v8.552c0 2.81.412 4.684 2.173 4.684a2.81 2.81 0 0 0 2.267-1.415v-9.367a.88.88 0 0 0-.28-.787l-1.556-1.602v-.065h6.979v13.17zm23.756 2.39c0-.507.094-6.952.094-8.432 0-2.81-.44-4.75-2.417-4.75a3.138 3.138 0 0 0-2.482 1.35c.198.876.292 1.772.28 2.67 0 1.948-.065 4.43-.093 6.913a.796.796 0 0 0 .281.759l1.574 1.442v.066h-7.045c0-.468.094-6.95.094-8.431 0-2.857-.44-4.75-2.389-4.75a2.81 2.81 0 0 0-2.323 1.387v9.555c0 .412 0 .506.281.759l1.537 1.442v.066h-6.97V21.098a.88.88 0 0 0-.281-.787l-1.546-1.639v-.065h6.98v3.334a5.002 5.002 0 0 1 5.002-3.587c2.323 0 3.896 1.292 4.562 3.747a5.433 5.433 0 0 1 5.245-3.747c3.11 0 4.872 2.295 4.872 6.632 0 2.07-.066 4.43-.094 6.913a.75.75 0 0 0 .318.759l1.537 1.443v.065h-7.017zm-87.671-2.043l2.07 1.977v.065H17.862v-.065l2.107-1.977a.796.796 0 0 0 .281-.759V18.728c0-.534 0-1.255.094-1.873l-7.082 17.564h-.084L5.843 18.26c-.16-.402-.206-.43-.31-.702v10.595c-.087.71.034 1.429.348 2.07l2.95 3.879v.065H1v-.065l2.95-3.888a3.69 3.69 0 0 0 .347-2.06v-11.71a2.267 2.267 0 0 0-.487-1.602l-2.089-2.708v-.065h7.494l6.277 13.686 5.527-13.686h7.335v.065l-2.061 2.296a.806.806 0 0 0-.319.786v16.15a.75.75 0 0 0 .319.759zm8.215-6.332v.065c0 4.01 2.07 5.62 4.497 5.62a5.105 5.105 0 0 0 4.777-2.894h.066c-.844 3.963-3.298 5.836-6.97 5.836-3.962 0-7.7-2.389-7.7-7.925 0-5.817 3.747-8.14 7.887-8.14 3.335 0 6.886 1.573 6.886 6.632v.806h-9.443zm0-.806h4.618v-.815c0-4.122-.852-5.218-2.136-5.218-1.555 0-2.5 1.64-2.5 6.033h.018z"></path></svg>
+                    </a>              
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                          </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Our Story</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Membership</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Write</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Sign In</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link btn btn-dark text-white ms-3" href="#">Get Started</a>
+                      </li>
+                    </ul>
+                  </div> 
+              </nav>     
+            </div>
+    </div>
+
+    <div class="bg-navy-blue py-5 border-bottom-dark-1 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="display-3 fw-bold">
+                        Medium is a place<br> to write, read, and <br> connect
+                    </h1>
+                    <p class="lead fw-bold">It's easy and free to post your thinking on any topic and connect with millions of readers.</p>
+                    <a href="" class="btn btn-outline-dark text-white fw-bold ">Start Writing</a>
+                </div>
+                <div class="col-6">
+                    <img src="https://picsum.photos/id/237/400/400" class="rounded-circle float-end" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="border-bottom">
+    <div class="container mt-5 ">
+        <div class="row">
+            <div class="col-12 mb-2">
+                <h6>
+                    <i class="fas fa-rocket"></i>
+                    <small class="ms-2">TRENDING ON MEDIUM</small>
+                </h6>
+            </div>
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50">01</h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/11/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50">02</h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/12/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50">03</h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/20/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50">04</h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/14/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50">05</h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/15/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> Sequoia in Sequoia Capital Publication</strong>
+                        </h6>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-4">
+                <div class="row">
+                    <div class="col-1">
+                        <h6 class="text-black-50">06</h6>
+                    </div>
+                    <div class="col-11">
+                        <img class="rounded-circle" src="https://picsum.photos/id/22/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                </div>
+            </article>
+            
+        </div>
+    </div> <!--Container-End-->
+</div>
+
+    <div class="container">
+        <div class="row my-5">
+            <section class="col-sm-8">
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/21/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/23/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/158/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/123/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+                
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/221/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/231/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/101/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/69/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/18/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/19/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/51/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/55/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/1/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/203/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/119/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/31/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/7/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/79/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+                <article class="row mb-5">
+                    <div class="col-8">
+                        <img class="rounded-circle" src="https://picsum.photos/id/251/25/25" alt="">
+                        <span class="small ms-2">Will Leitch</span>
+                        <h6 class="mt-2">
+                           <strong> How to use an android device for development wirelessly?</strong>
+                        </h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolorem animi, quis asperiores ullam aliquid aut tempora fugiat voluptatum consequuntur.</p>
+                        <ul class="list-inline small">
+                            <li class="list-inline-item">Oct 26 ·</li>
+                            <li class="list-inline-item">3 min read</li>
+                            <li class="list-inline-item"><i class="far fa-star"></i>  </li>         
+                        </ul>
+                    </div>
+                    <div class="col-4">
+                        <img src="https://picsum.photos/id/36/400/250" alt="" class="w-100">
+                    </div>
+                </article>
+
+            </section>
+
+            <aside class="col-sm-4">
+                <h6>
+                    <small>
+                        <strong>
+                            DISCOVER MORE OF WHAT MATTERS TO YOU
+                        </strong>
+                     </small>    
+                </h6>
+                <ul class="list-inline aside-buttons">    
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Lorem.</a></li>
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Rerum.</a></li>
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Rem?</a></li>
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Est!</a></li>
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Voluptatem.</a></li>
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Voluptatum.</a></li>           
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Voluptatum.</a></li>           
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Voluptatum.</a></li>           
+                    <li class="list-inline-item"><a href="" class="btn btn-sm btn-outline-secondary">Voluptatum.</a></li>           
+                </ul>
+            </aside>
+
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <!-- <div class="bg-navy-blue border-bottom-dark-1">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container py-1">
+
+          <a class="navbar-brand" href="#">
+              <img src="medium-logo-F0ACFCCD58-seeklogo.com.png" alt="" style="height: 25px;">
+             <svg class="ms-2" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122" height="45" viewBox="0 0 122 45"><path d="M61.6 31.806c0 .412 0 .505.28.758l1.574 1.537v.065h-6.979v-2.95a4.852 4.852 0 0 1-4.627 3.203c-3.588 0-6.192-2.81-6.192-7.981 0-4.843 2.81-8.075 6.754-8.075a4.122 4.122 0 0 1 4.056 2.51v-6.51a.806.806 0 0 0-.319-.787l-1.499-1.443v-.065l6.951-.815v20.553zm-5.125-.937v-9.714a2.614 2.614 0 0 0-2.08-.975c-1.695 0-3.334 1.537-3.334 6.099 0 4.271 1.414 5.78 3.175 5.78a2.81 2.81 0 0 0 2.24-1.19zm9.752 3.297V21.051a.88.88 0 0 0-.281-.786L64.4 18.672v-.065h6.98v13.302c0 .412 0 .505.28.758l1.536 1.443v.066l-6.97-.01zm-.253-20.356a2.81 2.81 0 1 1 5.62 0 2.81 2.81 0 0 1-5.62 0zm24.234 17.967c0 .413 0 .534.281.787l1.574 1.537v.065h-7.017v-3.363a5.077 5.077 0 0 1-4.805 3.616c-3.11 0-4.778-2.267-4.778-6.557 0-2.07 0-4.337.066-6.885a.796.796 0 0 0-.281-.76l-1.546-1.545v-.065h6.923v8.552c0 2.81.412 4.684 2.173 4.684a2.81 2.81 0 0 0 2.267-1.415v-9.367a.88.88 0 0 0-.28-.787l-1.556-1.602v-.065h6.979v13.17zm23.756 2.39c0-.507.094-6.952.094-8.432 0-2.81-.44-4.75-2.417-4.75a3.138 3.138 0 0 0-2.482 1.35c.198.876.292 1.772.28 2.67 0 1.948-.065 4.43-.093 6.913a.796.796 0 0 0 .281.759l1.574 1.442v.066h-7.045c0-.468.094-6.95.094-8.431 0-2.857-.44-4.75-2.389-4.75a2.81 2.81 0 0 0-2.323 1.387v9.555c0 .412 0 .506.281.759l1.537 1.442v.066h-6.97V21.098a.88.88 0 0 0-.281-.787l-1.546-1.639v-.065h6.98v3.334a5.002 5.002 0 0 1 5.002-3.587c2.323 0 3.896 1.292 4.562 3.747a5.433 5.433 0 0 1 5.245-3.747c3.11 0 4.872 2.295 4.872 6.632 0 2.07-.066 4.43-.094 6.913a.75.75 0 0 0 .318.759l1.537 1.443v.065h-7.017zm-87.671-2.043l2.07 1.977v.065H17.862v-.065l2.107-1.977a.796.796 0 0 0 .281-.759V18.728c0-.534 0-1.255.094-1.873l-7.082 17.564h-.084L5.843 18.26c-.16-.402-.206-.43-.31-.702v10.595c-.087.71.034 1.429.348 2.07l2.95 3.879v.065H1v-.065l2.95-3.888a3.69 3.69 0 0 0 .347-2.06v-11.71a2.267 2.267 0 0 0-.487-1.602l-2.089-2.708v-.065h7.494l6.277 13.686 5.527-13.686h7.335v.065l-2.061 2.296a.806.806 0 0 0-.319.786v16.15a.75.75 0 0 0 .319.759zm8.215-6.332v.065c0 4.01 2.07 5.62 4.497 5.62a5.105 5.105 0 0 0 4.777-2.894h.066c-.844 3.963-3.298 5.836-6.97 5.836-3.962 0-7.7-2.389-7.7-7.925 0-5.817 3.747-8.14 7.887-8.14 3.335 0 6.886 1.573 6.886 6.632v.806h-9.443zm0-.806h4.618v-.815c0-4.122-.852-5.218-2.136-5.218-1.555 0-2.5 1.64-2.5 6.033h.018z"></path></svg>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Our story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Write</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn btn-dark text-light ms-3 " href="#">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="bg-navy-blue border-bottom-dark-1 py-4 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="display-3 fw-bold">Medium is a place to write, read, and connect</h1>
+                    <p class="lead">It's easy and free to post your thinking on any topic and connect with millions of readers.</p>
+                    <a href="#" style="border: 1px solid black; border-radius: 50px;" class="btn p-2 text-black bg-white">Start Writing</a>
+                </div>
+                
+                <div class="col-6">
+                    <img class="rounded-circle float-end" src="https://picsum.photos/id/1/400/400" alt="">
+                </div>
+            </div> row end
+        </div> Container end 
+    </div> div background border-btoom end -->
+
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
